@@ -21,5 +21,14 @@ function array_print()
 	alert(out_array.length +"個目の配列要素は" +out_array[3]);
 	*/
 
+	// const宣言された配列の挙動
+	/*
+	const cnst_array=[ 4, 5, 6];
+
+	cnst_array[0] = 10;	// 配列全体がconst宣言されてるが、要素は代入禁止にならない
+	alert(cnst_array[0]);
+
+//	cnst_array = num_array;	// 配列全体にアクセスしようとすると代入エラー
+	*/
 
 }
